@@ -1,4 +1,3 @@
-/*global AlgoSigner*/
 import React, {useRef} from "react";
 import ConnectAlgoSigner from "./ConnectAlgoSigner";
 import SignPayTransaction from "./SignPayTransaction";

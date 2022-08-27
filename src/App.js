@@ -1,5 +1,3 @@
-/*global AlgoSigner*/
-
 import React from 'react'
 import Header from './components/Header/header'
 import MyAlgoWallet from './components/MyAlgoWallet/MyAlgoWallet'
