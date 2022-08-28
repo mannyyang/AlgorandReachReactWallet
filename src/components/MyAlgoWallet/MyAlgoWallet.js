@@ -3,7 +3,7 @@ import { loadStdlib } from "@reach-sh/stdlib";
 import { ALGO_MyAlgoConnect as MyAlgoConnect } from "@reach-sh/stdlib";
 import ConnectWalletButton from "./ConnectButton/ConnectWalletBtn";
 import TransferFund from "./Transferfund";
-import FundAccount from "./FundWallet";
+// import FundAccount from "./FundWallet";
 import myalgo from "../../assets/images/myaglo-logo.png";
 import { MyAlgoWalletMain } from "./MyAlgoWallet.styles";
 
@@ -62,7 +62,7 @@ const MyAlgoWallet = () => {
         accountBal={accountBal}
       />
       <TransferFund account={account} getBalance={getBalance} />
-      <FundAccount account={account} getBalance={getBalance} />
+      {/* <FundAccount account={account} getBalance={getBalance} /> */}
     </MyAlgoWalletMain>
   );
 };
